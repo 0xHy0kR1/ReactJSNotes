@@ -1,0 +1,2 @@
+- It stands for Node package manager. It helps in installing packages in NodeJS.
+- We can use NPM to install React app on our computer globally. But, we would be using the create-react-app command only once. So, Using npm will only lead to the consumption of our hard disk storage capacity, and hence we will be using npx instead of npm.

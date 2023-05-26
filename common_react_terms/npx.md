@@ -1,0 +1,2 @@
+- It is an npm package that is expected to be run only once in a project. 
+- In short, it allows you to use the Package without downloading it.

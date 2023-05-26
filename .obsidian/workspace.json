@@ -1,0 +1,218 @@
+{
+  "main": {
+    "id": "ce757ca0f2cc1ef5",
+    "type": "split",
+    "children": [
+      {
+        "id": "88fd550d318b6359",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eed783bbc1041e83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "creating first react app.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "86d8fb8a5cdca154",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "common_react_terms/State.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f7ad82e3d2b83732",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "common_react_terms/exports in react.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f0dd03e00e467964",
+    "type": "split",
+    "children": [
+      {
+        "id": "67141890db6dba6c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f13cda2cc5060e2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8a2ebc17057f2430",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e1ca24d9b15f4773",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "3db19262933c59ae",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "436857bb5580dd86",
+    "type": "split",
+    "children": [
+      {
+        "id": "c59f2bc7a3df6866",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2601cfe9af7856c1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "creating first react app.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "09e2a164b93a2fdb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "creating first react app.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c17257aab69fa3f5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1fcad8023b314935",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "creating first react app.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "eed783bbc1041e83",
+  "lastOpenFiles": [
+    "images/setTimeout_to_alert_app.webp",
+    "images/setTimeout_to_alert_app.webp.crdownload",
+    "images/alert_first_letter_capitalize_app.webp",
+    "images/alert_first_letter_capitalize_app.webp.crdownload",
+    "images/change_color_alert_2_app.webp",
+    "images/change_color_alert_2_appwebp.webp.crdownload",
+    "images/change_alert_color_app.webp",
+    "images/change_alert_color_app.webp.crdownload",
+    "images/alert_showing_on_toggle_blackwhite.webp",
+    "images/alert_showing_on_toggle_blackwhite.webp.crdownload",
+    "images/passing_value_to_alert.js.webp",
+    "images/passing_value_to_alert.js.webp.crdownload",
+    "images/passing_props_to_alert.js.webp",
+    "images/passing_props_to_alert.js.webp.crdownload",
+    "images/preview_section.webp",
+    "images/textbox_background_change.webp",
+    "images/navbar_and_body_color_change.webp",
+    "images/navbar_color_change.webp",
+    "common_react_terms/State.md",
+    "creating first react app.md",
+    "common_react_terms/hook.md",
+    "common_react_terms/props.md",
+    "common_react_terms/Tips.md",
+    "images/props_use_example.webp.crdownload",
+    "common_react_terms/React Components.md",
+    "images/import_navbar.webp.crdownload",
+    "common_react_terms/exports in react.md",
+    "Components based architecture of React.md",
+    "JSX.md",
+    "common_react_terms/folder structure of React app.md",
+    "common_react_terms/npx.md",
+    "multipage and single page application.md",
+    "images/Single_Page_app.webp.crdownload",
+    "common_react_terms/npm.md"
+  ]
+}
