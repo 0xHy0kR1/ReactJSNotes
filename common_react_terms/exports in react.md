@@ -36,4 +36,4 @@ export {b};
 import {b} from './module.js'
 console.log(b);
 ```
-The value of 'b' will be imported, which is 'Rohan'.
+The value of 'b' will be imported, which is 'Rohan'. Name Exports are used to export multiple values.

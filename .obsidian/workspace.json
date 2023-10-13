@@ -4,59 +4,95 @@
     "type": "split",
     "children": [
       {
-        "id": "88fd550d318b6359",
+        "id": "931e142896381688",
         "type": "tabs",
         "children": [
           {
-            "id": "eed783bbc1041e83",
+            "id": "8ceac575c13757fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "creating first react app.md",
+                "file": "Creating_third_react_app(iNotebook).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "13c1da413a0ee6ac",
+            "id": "a1fb567b4099acbd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "reactjs extensions.md",
+                "file": "Creating_third_react_app(iNotebook).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "86d8fb8a5cdca154",
+            "id": "294a9f79769f4b02",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "common_react_terms/State.md",
+                "file": "Creating_third_react_app(iNotebook).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f7ad82e3d2b83732",
+            "id": "dde6a97a6be632bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "common_react_terms/exports in react.md",
+                "file": "Creating_third_react_app(iNotebook).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e81d69736449216f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "common_react_terms/Tips.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9b7d0e5ec3173132",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "JSX.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9970a5d67766ad7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Understanding_Password_Hashing,Salt_&_Pepper.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -130,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "reactjs extensions.md",
+                "file": "Creating_third_react_app(iNotebook).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "reactjs extensions.md",
+                "file": "Creating_third_react_app(iNotebook).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +206,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "reactjs extensions.md"
+                "file": "Creating_third_react_app(iNotebook).md"
+              }
+            }
+          },
+          {
+            "id": "0b26bfebb8d78b9b",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -192,41 +238,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "13c1da413a0ee6ac",
+  "active": "dde6a97a6be632bb",
   "lastOpenFiles": [
-    "images/reactjs_extensions2.png",
-    "reactjs extensions.md",
-    "images/reactjs_extensions.png",
-    "creating first react app.md",
-    "images/setTimeout_to_alert_app.webp",
-    "images/setTimeout_to_alert_app.webp.crdownload",
-    "images/alert_first_letter_capitalize_app.webp",
-    "images/alert_first_letter_capitalize_app.webp.crdownload",
-    "images/change_color_alert_2_app.webp",
-    "images/change_color_alert_2_appwebp.webp.crdownload",
-    "images/change_alert_color_app.webp",
-    "images/change_alert_color_app.webp.crdownload",
-    "images/alert_showing_on_toggle_blackwhite.webp",
-    "images/alert_showing_on_toggle_blackwhite.webp.crdownload",
-    "images/passing_value_to_alert.js.webp",
-    "images/passing_value_to_alert.js.webp.crdownload",
-    "images/passing_props_to_alert.js.webp",
-    "images/passing_props_to_alert.js.webp.crdownload",
-    "images/preview_section.webp",
-    "common_react_terms/State.md",
-    "common_react_terms/hook.md",
-    "common_react_terms/props.md",
+    "images/inotebook_front-end_and_back-end_res.webp",
+    "images/inotebook_front-end_and_back-end_res.webp.crdownload",
+    "images/inotebook_Notejs_font-end_note_edit.webp",
+    "images/inotebook_Notejs_font-end_note_edit.webp.crdownload",
+    "images/inotebook_Notejs_editNote_call.webp",
+    "images/inotebook_Notejs_editNote_call.webp.crdownload",
+    "images/inotebook_Notejs_close_modal.webp",
+    "images/inotebook_Notejs_close_modal.webp.crdownload",
+    "images/inotebook_updatenote_modal_res.webp",
+    "images/inotebook_updatenote_modal_res.webp.crdownload",
+    "images/inotebook_update_func_enhancing.webp",
+    "images/inotebook_update_func_enhancing.webp.crdownload",
+    "images/inotebook_modal_form.webp",
+    "images/inotebook_modal_form.webp.crdownload",
+    "images/inotebook_editNote_modal_form.webp",
+    "images/inotebook_editNote_modal_form.webp.crdownload",
+    "images/inotebook_editNote_modal.webp",
+    "images/inotebook_editNote_modal.webp.crdownload",
+    "images/inotebook_updatenote_func.webp",
+    "images/inotebook_updatenote_func.webp.crdownload",
+    "images/inotebook_deletenote_api_call_func.webp",
     "common_react_terms/Tips.md",
-    "images/props_use_example.webp.crdownload",
-    "common_react_terms/React Components.md",
-    "images/import_navbar.webp.crdownload",
-    "common_react_terms/exports in react.md",
-    "Components based architecture of React.md",
+    "Creating_third_react_app(iNotebook).md",
+    "useLocation hook.md",
+    "context_API.md",
     "JSX.md",
-    "common_react_terms/folder structure of React app.md",
-    "common_react_terms/npx.md",
+    "Understanding_Password_Hashing,Salt_&_Pepper.md",
+    "Intro_to_MERN_STACK.md",
+    "creating second react app(newsapp).md",
+    "Class Component.md",
+    "React_hooks.md",
+    "React_component_life_cycle_method.md",
+    "building and hosting app on github.md",
+    "common_react_terms/props_vs_state.md",
+    "common_react_terms/State.md",
+    "common_react_terms/props.md",
+    "Components based architecture of React.md",
+    "common_react_terms/exports in react.md",
+    "reactjs extensions.md",
+    "common_react_terms/React Components.md",
+    "creating first react app(textutils).md",
+    "React router setup +  usage.md",
+    "common_react_terms/hook.md",
+    "reactjs_basic_practicals/jsx basics.md",
     "multipage and single page application.md",
-    "images/Single_Page_app.webp.crdownload",
-    "common_react_terms/npm.md"
+    "common_react_terms/folder structure of React app.md"
   ]
 }

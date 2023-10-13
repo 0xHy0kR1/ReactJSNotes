@@ -27,7 +27,7 @@ First copy the navbar component from bootstrap and paste it on your app.js of in
 
 [[exports in react]]
 ## Creating the Navbar Component: 
-- Create `Navbar.js` inside "Component" folder which inside of "src" folder.
+- Creating `Navbar.js` inside "Component" folder which is inside of "src" folder.
 ```javascript
 import react from 'react'
 export default function Navbar() {
@@ -75,7 +75,7 @@ navbar.propTypes = {title: propTypes.string.isrequired, aboutText: PropTypes.str
 
 ## Creating a Textbox:
 - For creating a Textbox in our web page we are going to create a `TextForm.js` file inside our component folder.
-- inside the component folder we create `function-based` component by using `rfc` snippet.
+- inside the `TextForm.js` file we create `function-based` component by using `rfc` snippet.
 ![[TextForm.js_file.webp]]
 **Above our Textbox in textform.js
 
@@ -118,7 +118,7 @@ const handleOnChange = (event) => {
     setText(event.target.value);
 }
 ```
-- After adding the above function you able to add more text to your textbox.
+- After adding the above function you are able to add more text to your textbox.
 
 ## Changing the text Uppercase:
 - We make this function to change the text to uppercase when user clicks on button.
@@ -275,7 +275,7 @@ const[Mode, setMode] = useState('light');
 <nav ClassName="navbar navbar-expand-lg navbar-light bg-light">
 ```
 
-- But how did we change the color of our component between light and dark for that we use javascript
+- But how we will change the color of our component between light and dark for that we use javascript
 ```javascript
 <nav ClassName= {`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}>
 ```
@@ -283,7 +283,7 @@ const[Mode, setMode] = useState('light');
 - We are using backticks so we can use template literals [Syntax: ${}] inside a string
 
 ## What have we done?
-- We have created a state ‘Mode’.
+- We have created a state ‘mode’.
 - The default value of the state is light. This value is passed to our Navbar props.mode, Which is actually the color of our Navbar.
 - Hence, On changing the color in the defined state in app.js the color of the Navbar changes.
 
@@ -295,7 +295,7 @@ const[Mode, setMode] = useState('light');
 </div>
 ```
 - Above we used ternary operators.
-- Ternary operators used in place of if else for decision making in short line of code.
+- Ternary operators used in place of longer if else for decision making in short line of code.
 
 ## Creating Function
 - It changes the view from light to dark if our mode is light or vice versa.
@@ -355,7 +355,7 @@ style={{color: props.mode==='dark'?'white':'black'}}
 ```jsx
 style={{backgroundcolour: props.mode==='dark'? 'Grey': 'white', color:props.mode=== 'dark'?'white': 'black'}}
 ```
-- If dark mode is enabled then the textbox become grey other white.
+- If dark mode is enabled then the textbox will become grey otherwise white.
 ![[textbox_background_change.webp]]
 
 ## Editing Preview Section:
@@ -370,7 +370,7 @@ style={{backgroundcolour: props.mode==='dark'? 'Grey': 'white', color:props.mode
 ## Adding Dismissing Alert Message
 
 #### Create Alert.js
-- Create alert.js and paste the code of dismissable alert in the return().
+- Creating alert.js and paste the code of dismissable alert in the return().
 
 #### Passing values as a prop
 - We will be passing values in alert.js as a prop.
@@ -479,3 +479,125 @@ props.showAlert("Converted to uppercase!", "success");
 - We would use ‘set timeout’ to the showAlert function as:
 ![[setTimeout_to_alert_app.webp]]
 - Alert message will be shown to him/her which will automatically disappear after 1.5 seconds.
+
+## Changing Meta Description
+Open "index.html" available in the public folder. In "index.html" we can easily change the meta description.
+![[meta_desc_change.png]]
+
+## Changing Favicon
+- In our case, We will be generating the favicon online by converting an image to ".ico" file format.
+- ico is the file format used for computer icons, and paste it inside the public folder of our React application.
+- In index.html replace the old name of the image with your desired one.
+
+## Here are some of the issues in our TextUtils application:
+
+1. Word Counting Error
+2. No Mobile friendly buttons
+3. No Relevant About Text 
+4. The layout is shifting when an alert appears (while clicking a button)
+5. The cursor is invisible in Dark mode
+6. Expected Reading Time Error
+7. No SEO optimization
+8. Buttons are still working when the textbox is blank.
+9. Deselecting the Copied Text
+
+#### 1. Word Counting Error
+- We have created the function of Counting words in our Textform.js.
+- The split() method is used to convert the string into an array.
+- In our case, We are splitting the string by a space and then counting the length of that array, which comes out to be one. Therefore, a blank space is being counted as a word.
+
+**Solution** - 
+- The quick way of fixing this error is by removing the empty strings from the split array.
+- We can easily do so by using the filter method in our Text.split function as described below:
+```js
+{text.split(" ").filter((element)=>{return element.length!==0}).length}
+```
+- The arrow function `(element) => {return element.length !== 0}` checks whether the length of each `element` in the array is not equal to zero. If the length is not zero (i.e., the element is not an empty string), it is included in the new filtered array.
+- For example, using the previous array `["Hello", "World"]`, the filter will remove any empty strings (if any), and the result will still be `["Hello", "World"]`.
+
+#### 2. Adding Mobile-Friendly Buttons
+![[not_mobile_friendly_buttons.webp]]
+- The above error is occurring as there is no margin for the buttons in the Y direction.
+- To solve this issue add some margin to the buttons, available in "textform.js", in the Y direction
+
+#### 3. Enhancing "about.js"
+![[aboutjs_problem.webp]]
+We would remove the Dark mode button of the Accordion and also the ToggleStyle function assigned to it from about.js. We are adding our desired text in Accordion and editing it in our own way.
+
+**Adding a proper Dark Mode** **to about.js**
+To add dark mode to our about.js, follow the below steps.
+
+**Step 1:** Firstly, Pass Mode in About component of App.js as
+```js
+<About mode={mode}/>
+```
+
+**Step 2:** We would create a new ‘myStyle’ variable which would provide our desired design to the About page, on enabling the dark mode.
+```js
+let myStyle = {
+    color: props.mode === 'dark'?'white':'#042743',
+    backgroundColor: props.mode ==='dark'?'rgb(36 74 104)':'white'
+}
+```
+
+#### 4. Layout Shifting Issue
+- The layout of our application is shifting when an alert is shown. Remember that the layout shift must be minimum for your application, as this is one of the ranking factors from the SEO point of view.
+- **Solution** - To resolve the issue, go to your "alert.js", and inside the alert component, we would wrap the alert inside a div container having a specific height.
+![[alert_issue.webp]]
+As a result, the Alert component will have a specific height for its display.
+
+#### 5. Expected Reading Time Error
+- Our application will be showing the expected time to read the provided text, but if the Textbox is blank then also our Time counter is showing an expected time to read the text.
+- To fix this bug in our application, we would use the filter method as we have used to solve the counting word error.
+```js
+<p>{0.008 * text.split(" ").filter((element)=>{return element.length!==0}).length} Minute read </p>
+```
+
+#### 6. Fixing for SEO
+- SEO is one of the factors which helps our website to rank on Google.
+- To make our application SEO optimized we would make the following changes to our Index.html and Textform.js:
+**In index.html:**
+**Meta Description:**
+-  It provides a brief sketch of the content of the website to the Google crawler.
+- Therefore, it becomes utterly important to add specific keywords related to our content in the meta description.
+**Title**:
+- It specifies the Content of our specific web pages. Hence, we have changed the title of our application by adding some relevant Keywords to it.
+![[seo_optimized.webp]]
+
+**In textform.js:**
+**Editing Headings**:
+- It plays a major role in the SEO optimization of our website as it makes it easier for a User and Crawler to navigate through the page.
+- We will be passing a new heading, having relevant keywords related to our application, in props.heading from app.js.
+![[seo_optimized2.webp]]
+**We have optimized our app for search engines.**
+
+#### 7. Disable button
+When our Textbox is empty, but our buttons are working and performing their functions, which seems like a bug to our application.
+**Solution:** To overcome this issue, we would add the below code to every button.
+```js
+disabled={text.length===0} 
+```
+This code means to disable the buttons when the length of the text is 0. That is, the textbox is empty.
+
+Error has been **successfully** resolved.
+
+#### 8. Word Counting Error
+![[word_counter_prob.webp]]
+- This issue occurs as we have forgotten to split the string with a new line.
+- We would like to split it by space and a new line. To do so, Go to textform.js where we have written the code for counting words, and edit it as follows:
+```js
+<p>{text.split(/\s+/).filter((element)=>{return element.length!==0}).length} words and {text.length} characters</p>
+```
+Here, We are using the regular expression(regex) instead of space. The \s is the common shorthand in regex for any whitespace character, including newlines and ‘+’ denotes more than one.
+![[word_counter_sol.webp]]
+
+#### 9. About page arrow Invisibility
+- In the dark mode, the side arrows in the accordion component of our About Page disappear due to their matching color with the background.
+- We can easily fix this issue by adding the below CSS code to accordion-button::after in index.css.
+```css
+.accordion-button::after {
+    filter: invert(1);
+}
+```
+![[back_arrow_color.webp]]
+

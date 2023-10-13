@@ -5,7 +5,6 @@
 ![[component_based_architecture.webp]]
 # Advantage of dividing our app into components:
 - By dividing your app into components, you can reuse the component in the same or different app repeatedly.
-- We can change the component of our app using Props and State.
 - It also makes it easier to find errors in a large set of your code.
 
 Related --> [[React Components]]

@@ -4,7 +4,7 @@
 
 #### 2.)Class-based Components: 
 - They are quite complext than the function-based component as the class components can work with each other.
-
+[[Class Component]]
 ## Advantages of component:
 - By dividing your app into components you can reuse the component in the same or different app again and again. 
 - It makes easier to find errors in large set of code.

@@ -1,7 +1,7 @@
-	1. node_modules: It contains all the packages, which are used by React app.
-1. .gitignore: It contains the files, which you do not want to push in Github.
-2. package.json: Contains all the packages which are installed in Node modules.
-3. readme.md: It provides the basic info about your app.
+1. node_modules: It contains all the packages, which are used by React app.
+2. .gitignore: It contains the files, which you do not want to push in Github.
+3. package.json: Contains all the packages which are installed in Node modules.
+4. readme.md: It provides the basic info about your app.
 
 ## The two folders in which we are interested are:
 1. "public" folder: It contains an index.html file.
@@ -9,6 +9,7 @@
 	 ```html
 <div id="root"></div>
 ```
+Here, we will be rendering data from components available in the src folder with the help of JavaScript.
 2. "src" folder:
 
 Two most important files in the src folder are: 
@@ -19,5 +20,5 @@ Two most important files in the src folder are:
 ![[app.js_and_index.js_ex.webp]]
 
 ## How to run your React app?
-- write **npm start** in terminal and your react app will be served at _localhost:3000_
+- write **npm run start** in terminal and your react app will be served at _localhost:3000_
 -  You can use **npm run build** if you are creating an app for production.

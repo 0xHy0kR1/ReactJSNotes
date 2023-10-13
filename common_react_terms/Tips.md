@@ -15,3 +15,9 @@ To use emmet abbreviation, Go to the settings and search for ‘Emmet: include l
 ## <mark style="background: #BBFABBA6;">Tip-5:</mark> - for generating react function based code
 - To generate the react Function-based component code, simply use the `rfc` snippet and enter. The below code will be generated
 
+## <mark style="background: #BBFAasdfasdf;">Tip-6:</mark> - For generating emmet abbreviation
+![[emmet_for_react.png]]
+
+## <mark style="background: blue;">Tip-7:</mark>: Code reusability
+Always try creating reusable components, so that you can use a single component in different applications.
+

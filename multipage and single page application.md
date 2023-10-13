@@ -4,6 +4,7 @@
 
 #### For example: while visiting codewithharry.com/contact its HTML will be served and moving to codewithharry.com/about then again its HTML will be served.
 ![[multiplage_app.webp]]
+
 ## Single-Page Application:
 - In this case, the request will be sent once by the client to the server, and all the HTML, CSS, JS will be rendered with the first request. 
 - Then, javascript will take of the whole application and with the help of APIs, the same page will be populated.
